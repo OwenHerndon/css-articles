@@ -1,0 +1,35 @@
+body{
+	background: blue; 
+}
+
+section{
+	border: 5px solid;
+}
+
+section:nth-child(1){
+	background-color: red;
+	border-radius: 12px;
+}
+
+section:nth-child(2){
+	background-color: goldenrod;
+	border-radius: 20px;
+
+}
+
+section:nth-child(3){
+	background-color: purple;
+	border-radius: 1px;
+}
+
+section:nth-child(4){
+	background-color: orange;
+	border-radius: 12px 5px;
+
+}
+
+section:nth-child(5){
+	background-color: green;
+	border-radius: 4px;
+
+}
